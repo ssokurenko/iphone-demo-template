@@ -1,0 +1,29 @@
+body {
+    background: #4eadcf;
+}
+.iphone-box {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    width: 433px;
+    height: 882px;
+    background-image: url('../img/iphone6.png');
+    background-size: 433px 882px;
+}
+
+.screen {
+    position: absolute;
+    display: block;
+    top: 104px;
+    left: 25px;
+    width: 380px;
+    height: 672px;
+    border-radius: 2px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #b5b5b5;
+    border-top: 1px solid #949494;
+    border-left: 1px solid #949494;
+
+    text-align: center;
+}
