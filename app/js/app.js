@@ -1,1 +1,5 @@
-console.log('app code goes here');
+var app;
+
+$(document).ready(function(){
+    console.log('DOM is ready');
+});
